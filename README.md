@@ -1,53 +1,35 @@
-# Hello World with Vanilla JS
+# Clase 6 - Proyecto de Repaso del Prework (Grupo SP-79) - 4Geeks Academy
 
-> 🇪🇸 [Spanish version of this readme is available](./README.es.md).
+Este proyecto es parte de la Clase 6 de repaso del prework para el grupo SP-79 de  [4Geeks Academy](https://github.com/4GeeksAcademy) .
 
-Start coding a JS/HTML/CSS website in 30 seconds by opening this template using 4Geeks' [One-Click Coding](https://s.4geeks.com/start?repo=https://github.com/4GeeksAcademy/vanillajs-hello) or locally on your computer.
+ El proyecto incluye varios ejercicios que cubren temas básicos de HTML, CSS, y JavaScript, tales como validación de formularios, cambios de estilo dinámicos, y manejo de eventos.
 
-## Before you begin
+## Descripción
 
-Install the packages by typing: `npm install`.
+El proyecto consiste en una página web interactiva que incluye las siguientes funcionalidades:
 
+1. **Verificador de Edad:** Permite al usuario ingresar su edad y verifica si puede entrar a una discoteca (mayores de 18 años).
+2. **Contador de Clicks:** Contador que incrementa cada vez que se hace clic en un botón.
+3. **Cambiar el Color de Fondo:** Permite al usuario cambiar el color de fondo de la página escribiendo el nombre de un color.
+4. **Mostrar/Ocultar Párrafo:** Un botón que muestra u oculta un párrafo en la página.
+5. **Validación de Formulario:** Verifica si el campo de nombre está vacío y muestra un mensaje de error si es así.
+6. **Cambiar Tamaño del Texto:** Botones para aumentar o disminuir el tamaño de un texto en la página.
 
-### How do I run my website to see live changes?  
-
-
-Type on the command line `$ npm run start` and type localhost on the browser.
-
-### Where do I write my code?  
-
-It depends on the language, but you have `./src/app.js`, `./src/style.css` and `./src/index.html` respectively, you can add new `.html` as you please, just make sure to import it on the `app.js`.
-
-> Note: remember that the JS workflow starts inside `window.onload`.
-
-
-## Troubleshooting
-
-### I don't see my changes...
-
-Everytime you change any file inside the `./src` folder the website's public URL will automatically refresh the changes (it's a process called hot deploy)
-Remember also to refresh cleaning the cache (`command+shift+r` on Mac, `control+shift+r` on PC & Linux)
-
-### How do I include more images in my project?
-
-Add them inside the `./src/assets/img` folder and import them from any of your JS files. E.g: `import "../assets/img/rigo-baby.jpg";`
-
-### How do I include more JS files?
-
-Just add the files into the src folder and import the file/variables into your app.js. E.g: `import myVar from "./file2.js"`
-
-### How do I publish the website?
-
-This boilerplate is 100% compatible with the free GitHub pages hosting. Publish your website by running:
-
-```bash
-$ npm run deploy
+ ## Instalación
+ Ejecuta el siguiente comando en la terminal:
+ ```bash
+npm install
 ```
 
-Very easy and in just one step!  Push to your __main__ branch and use the free hosting that comes with [GitHub pages](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/#enabling-github-pages-to-publish-your-site-from-master-or-gh-pages), the project is ready to be published. Remember to choose to run the Github Page from your main branch.
+ ## Ejecución
+ Ejecuta el siguiente comando en la terminal:
+ ```bash
+npm run start
+```
 
-### Thank you
+## Contribuciones
+Este proyecto es un ejercicio educativo, pero si encuentras errores o mejoras, siéntete libre de hacer un fork y enviar un pull request.
 
-This template was built as part of the 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sanchez](https://twitter.com/alesanchezr) and many other contributors. Find out more about our [Full Stack Developer Course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer), [Data Science Bootcamp](https://4geeksacademy.com/us/coding-bootcamps/datascience-machine-learning) or [CyberSecurity Bootcamp](https://4geeksacademy.com/us/coding-bootcamps/cybersecurity)
+## Créditos
+Este proyecto fue desarrollado como parte de la Clase 6 del prework del grupo SP-79 en 4Geeks Academy, dirigido por Tu [Eduardo Hernández Guzmán](https://github.com/EduardoHernandezGuzman)
 
-You can find other templates and resources like this at the [school's GitHub page](https://github.com/4geeksacademy/).
