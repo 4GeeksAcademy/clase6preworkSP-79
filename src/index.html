@@ -7,45 +7,54 @@
     <link rel="stylesheet" href="../src/style.css" />
   </head>
   <body>
-    <!-- Verificador de edad -->
-    <div id="contenedor">
-      <h1>Verificador de edad</h1>
-      <label for="edad">Ingresa tu edad:</label>
-      <input type="number" id="edad" placeholder="Escribe tu edad" />
-      <button onclick="verificarEdad()">Verificar</button>
-      <p id="mensaje"></p>
-    </div>
-    <div id="contenedor">
-      <!-- Contador de Clics -->
-      <h1>Contador de Clicks</h1>
-      <button id="incrementar">Haz click aquí</button>
-      <p>Click: <span id="contador">0</span></p>
-    </div>
-    <!-- Cambiar el color del fondo -->
-    <div id="contenedor">
-      <h1>Cambiar el color de fondo</h1>
-      <input type="text" placeholder="Escribe un color" id="color" />
-      <button onclick="cambiarColor()">Cambiar color</button>
-    </div>
-    <!-- Mostrar y ocultar un párrafo -->
-    <div id="contenedor">
-      <h1>Mostrar/Ocultar un párrafo</h1>
-      <button id="toggleParrafo">Mostrar/Ocultar párrafo</button>
-      <p id="parrafo" style="display: none;">Este es un párrafo oculto</p>
-    </div>
-    <!-- Validación de un formulario -->
-    <div id="contenedor">
-      <h1>Validación de formulario</h1>
-      <input type="text" placeholder="Escribe tu nombre" id="nombre" />
-      <button id="enviar">Enviar</button>
-      <p id="mensaje2"></p>
-    </div>
-    <!-- Cambiar el tamaño del texto -->
-    <div id="contenedor">
-      <h1>Cambiar tamaño del texto</h1>
-      <p id="texto2">Este es un texto que aumenta y disminuye de tamaño</p>
-      <button id="aumentar">Aumenta el tamaño del texto</button>
-      <button id="disminuir">Disminuye el tamaño del texto</button>
+    <!-- Contenedor principal -->
+    <div id="contenedor-principal">
+      <!-- Primera columna -->
+      <div class="columna">
+        <!-- Verificador de edad -->
+        <div id="contenedor">
+          <h1>Verificador de edad</h1>
+          <label for="edad">Ingresa tu edad:</label>
+          <input type="number" id="edad" placeholder="Escribe tu edad" />
+          <button onclick="verificarEdad()">Verificar</button>
+          <p id="mensaje"></p>
+        </div>
+        <!-- Contador de Clics -->
+        <div id="contenedor">
+          <h1>Contador de Clicks</h1>
+          <button id="incrementar">Haz click aquí</button>
+          <p>Click: <span id="contador">0</span></p>
+        </div>
+        <!-- Cambiar el color del fondo -->
+        <div id="contenedor">
+          <h1>Cambiar el color de fondo</h1>
+          <input type="text" placeholder="Escribe un color" id="color" />
+          <button onclick="cambiarColor()">Cambiar color</button>
+        </div>
+      </div>
+      <!-- Segunda columna -->
+      <div class="columna">
+        <!-- Mostrar y ocultar un párrafo -->
+        <div id="contenedor">
+          <h1>Mostrar/Ocultar un párrafo</h1>
+          <button id="toggleParrafo">Mostrar/Ocultar párrafo</button>
+          <p id="parrafo" style="display: none;">Este es un párrafo oculto</p>
+        </div>
+        <!-- Validación de un formulario -->
+        <div id="contenedor">
+          <h1>Validación de formulario</h1>
+          <input type="text" placeholder="Escribe tu nombre" id="nombre" />
+          <button id="enviar">Enviar</button>
+          <p id="mensaje2"></p>
+        </div>
+        <!-- Cambiar el tamaño del texto -->
+        <div id="contenedor">
+          <h1>Cambiar tamaño del texto</h1>
+          <p id="texto2">Este es un texto que aumenta y disminuye de tamaño</p>
+          <button id="aumentar">Aumenta el tamaño del texto</button>
+          <button id="disminuir">Disminuye el tamaño del texto</button>
+        </div>
+      </div>
     </div>
     <script src="../src/app.js"></script>
   </body>
